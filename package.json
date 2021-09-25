@@ -1,0 +1,25 @@
+{
+  "name": "yolo_api",
+  "version": "1.0.0",
+  "description": "A simple API to expose bird recognition program",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "./node_modules/env-cmd/bin/env-cmd.js -f ./config/dev.env nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajeshvalluri/yolo_api.git"
+  },
+  "author": "rajesh valluri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajeshvalluri/yolo_api/issues"
+  },
+  "homepage": "https://github.com/rajeshvalluri/yolo_api#readme",
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
